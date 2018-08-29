@@ -1,7 +1,7 @@
 #include "Damage.h"
 #include "CommonData.h"
 #include "Hero.h"
-using namespace cocos2d;
+USING_NS_CC;
 
 bool Damage::init(int source,float damageValue)
 {
@@ -24,7 +24,7 @@ bool Damage::initSprite(std::string name) {
 	return this->initWithFile(name);
 }
 
-Damage* Damage:: create(int source,float damageValue){
+Damage* Damage::create(int source,float damageValue){
 	auto p=new Damage();
 	if(p && p->init(source,damageValue))
 	{

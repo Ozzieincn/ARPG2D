@@ -1,5 +1,5 @@
 #ifndef __DAMAGE_H__
-#define __DAMEGE_H__
+#define __DAMAGE_H__
 
 #include "cocos2d.h"
 

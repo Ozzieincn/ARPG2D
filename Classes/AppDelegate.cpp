@@ -21,6 +21,7 @@ bool AppDelegate::applicationDidFinishLaunching() {
     }
 	glview->setFrameSize(640, 480);
 	glview->setDesignResolutionSize(640, 480, ResolutionPolicy::FIXED_HEIGHT);
+	FileUtils::getInstance()->addSearchPath("TexturePack");
 
     // turn on display FPS
     director->setDisplayStats(true);

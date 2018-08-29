@@ -19,4 +19,10 @@ namespace PhysicsMask{
 	static const int item=8;
 };
 
+namespace AnimDelay{
+	static const float normal = 0.3f;
+	static const float walk = 0.2f;
+	static const float attack = 0.1f;
+};
+
 #endif
